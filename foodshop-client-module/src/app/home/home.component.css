@@ -1,0 +1,47 @@
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+.active
+{
+    background-color: red;
+}
+.carousel-item
+{
+    background-color: transparent;
+}
+
+.mycard
+{
+  margin-left: 50px;
+  background-color: #da3636;
+ border-radius: 12%;
+ width: 60%;
+ height: 20%;
+}
+.outcard
+{
+  background-color: transparent;
+  border: none;
+}
+div
+{
+  margin-top: 30px;
+}
+.mybtn
+{
+  background: linear-gradient(134.17deg, #EF6767 4.98%, #d73d3d 94.88%);
+  width: 80%;
+  height: 80%;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.category-container {
+  width: 378px;
+  height: 250px;
+}
+
+
+

@@ -1,0 +1,21 @@
+<div class="product col-md-12" id="{{id}}">
+  <div class="row">
+    <div class="col-md-6">
+      <span class="nameProduct">{{value?.category}}{{value?.prodName}}</span>
+    </div>
+    <div class="col-md-1">
+      <span class="price">{{value?.price}}</span>
+    </div>
+    <div class="col-md-2 imgs">
+      <img (click)="MinusProdCount()" src="https://i.imgur.com/scHs7sf.png" alt="" class="minus">
+      <span class="cols">{{count}}</span>
+      <img (click)="AddProdCount()" src="https://i.imgur.com/xNfjj3k.png" alt="" class="plus">
+    </div>
+     <div class="col-md-1">
+        <span class="sum">{{sum}}</span>
+     </div>
+    <div class="col-md-2 imgs">
+      <img (click)="Remove()" src="https://i.imgur.com/mCa0nll.png" alt="" class="del">
+    </div>
+  </div>
+</div>

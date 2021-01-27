@@ -1,0 +1,106 @@
+.block{
+  width: 243px;
+  height: 351px;
+
+  background: #E6E9EF;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+  border-radius: 6px;
+}
+
+.heart{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.stars {
+  margin-left: 9px;
+}
+
+.value-info{
+  margin-left: 9px;
+  margin-top: 10px;
+}
+
+.price{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #000000;
+
+}
+
+.footer-prod{
+  margin-top: 15px;
+  margin-left: 9px;
+}
+
+.tocart{
+  width: 90%;
+}
+
+.footer-prod a{
+  cursor: pointer !important;
+}
+
+.cont{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.prod-count{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: #F95050;
+}
+
+.prod-img{
+  margin: 8px;
+  height: 114px;
+  width: 206px;
+  align-self: center;
+}
+
+.value{
+  margin-left: 5px;
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.prodName {
+  margin-top: 20px;
+  margin-left: 9px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.img-box {
+  width: 222px;
+  height: 131px;
+  margin-left: 9px;
+  margin-top: 15px;
+
+  background: #D9DBDF;
+  border-radius: 15px;
+}

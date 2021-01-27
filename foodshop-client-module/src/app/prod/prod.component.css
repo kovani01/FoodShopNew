@@ -1,0 +1,15 @@
+.category{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #2B3348;
+}
+
+.prod-container {
+}

@@ -1,0 +1,96 @@
+.footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-height: 169px;
+  height: 169px;
+  z-index: 10;
+  background-color: #E5E5E5;
+  background-image: url("https://i.imgur.com/qdMJYE1.png");
+  background-size: cover;
+}
+
+.logo-f{
+  position: absolute;
+  margin-left: 1070px;
+  margin-top: 80px;
+  cursor: pointer !important;
+}
+
+.logo-y{
+  position: absolute;
+  margin-left: 1120px;
+  margin-top: 80px;
+  cursor: pointer !important;
+}
+
+.logo-i{
+  position: absolute;
+  margin-left: 1170px;
+  margin-top: 80px;
+  cursor: pointer !important;
+}
+
+.logo {
+  position: absolute;
+  width: 198px;
+  height: 28.56px;
+  left: 77px;
+  bottom: 48.44px;
+}
+
+.footer-soc {
+  position: absolute;
+  width: 82px;
+  height: 17px;
+  left: 985px;
+  bottom: 57px;
+}
+
+.footer-contact {
+  position: absolute;
+  width: 64px;
+  height: 17px;
+  left: 702px;
+  bottom: 57px;
+
+  cursor: pointer !important;
+}
+
+a{
+  color: #2B3348;
+}
+
+.footer-prod {
+  position: absolute;
+  width: 72px;
+  height: 17px;
+  left: 361px;
+  bottom: 57px;
+}
+
+.footer-about {
+  position: absolute;
+  width: 60px;
+  height: 17px;
+  left: 483px;
+  bottom: 57px;
+}
+
+.footer-home {
+  position: absolute;
+  width: 59px;
+  height: 17px;
+  left: 593px;
+  bottom: 57px;
+}
+
+.footer-text-style {
+  font-family: gilroylight, monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #2B3348;
+}

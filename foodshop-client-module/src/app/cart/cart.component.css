@@ -1,0 +1,218 @@
+.header {
+  height: 200px;
+}
+
+.itm {
+}
+
+.suma {
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+
+  color: #2B3348;
+}
+
+.plats {
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  letter-spacing: 0.05em;
+
+  color: #2B3348;
+}
+
+.online{
+  background: linear-gradient(0deg, #25CFAA, #25CFAA), linear-gradient(134.17deg, #EF6767 4.98%, #D73D3D 94.88%);
+  box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+  border-radius: 12px;
+
+  width: 339px;
+  height: 48px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26.5873px;
+  line-height: 31px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.order-info{
+  margin-top: 20px;
+}
+
+.orders{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.infoP{
+  margin-left: 100px;
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.offline{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26.5873px;
+  line-height: 31px;
+  /* identical to box height */
+
+
+  color: #747474;
+}
+
+.or{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26.5873px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #2B3348;
+}
+
+.colls{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  letter-spacing: 0.05em;
+
+  color: #25CFAA;
+
+}
+
+.pod {
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: 0.05em;
+
+  color: #2B3348;
+
+}
+
+.newData{
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(134.17deg, rgba(239, 103, 103, 0.9) 4.98%, rgba(215, 61, 61, 0.9) 94.88%);
+  box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+  border-radius: 12px;
+}
+
+.hh{
+  width: 258px;
+  height: 73px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #2B3348;
+
+}
+.line{
+  width: 746px;
+  margin-left: -50px;
+}
+.price{
+  width: 81px;
+  height: 23px;
+  margin-left: 680px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+.cols{
+  width: 80px;
+  height: 23px;
+  margin-left: 75px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.sum{
+  width: 64px;
+  height: 23px;
+  margin-left: 88px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.nameProduct{
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}

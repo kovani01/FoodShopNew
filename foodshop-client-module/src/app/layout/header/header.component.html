@@ -1,0 +1,24 @@
+<div class="header">
+  <img src="https://i.imgur.com/hTRltoW.png" class="logo">
+  <div class="links">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="header-home header-text-style">
+        Головна
+    </a>
+    <a routerLink="/about" routerLinkActive="active" class="header-about header-text-style">
+        Про нас
+    </a>
+    <a routerLink="/prod" routerLinkActive="active" class="header-prod header-text-style">
+        Продукція
+    </a>
+    <img (click)="changeState()" src="https://i.imgur.com/YgCDCVO.png" class="prod-list">
+    <a routerLink="/cart" routerLinkActive="active" class="header-cart header-text-style">
+      Корзина
+    </a>
+    <input type="button" (mouseover)="mouseOver()" (mouseout)="mouseOut()" id="signIn" class="header-signIn" routerLink="{{router}}" value="{{value}}">
+    <div class="name">
+      <span>{{name}}</span>
+    </div>
+  </div>
+  <div [@changeDivSize]="currentState" class="prod-list-block" id="prodList">
+  </div>
+</div>

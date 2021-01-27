@@ -1,0 +1,81 @@
+<div style="background-color: #E5E5E5;">
+  <app-header></app-header>
+  <div class="container">
+    <div class="row" style="padding-top: 120px">
+      <app-content></app-content>
+    </div>
+
+    <div class="row" style="padding-top: 40px; padding-bottom: 40px">
+      <div class="col-md-10">
+        <span class="category">Акції</span>
+      </div>
+      <div class="col-md-2">
+        <input type="button" class="btn btn-danger" style="width: 100%; margin-top: 20px" value="Більше...">
+      </div>
+      <div class="prod-container row">
+      </div>
+    </div>
+
+    <a name="pizza">
+    <div class="row" style="padding-top: 40px; padding-bottom: 40px">
+      <div class="col-md-10">
+        <span class="category">Піца</span>
+      </div>
+      <div class="col-md-2">
+        <input type="button" (click)="ClickP()" class="btn btn-danger" style="width: 100%; margin-top: 20px" value="Більше...">
+      </div>
+      <div class="prod-container row" #contPizza>
+      </div>
+    </div>
+    </a>
+
+    <a name="sushi">
+    <div class="row" style="padding-top: 40px; padding-bottom: 40px">
+      <div class="col-md-10">
+        <span class="category">Суші</span>
+      </div>
+      <div class="col-md-2" >
+        <input type="button" (click)="ClickSu()" class="btn btn-danger" style="width: 100%; margin-top: 20px" value="Більше...">
+      </div>
+      <div class="prod-container row" #contSushi>
+      </div>
+    </div>
+    </a>
+
+    <a name="burgers">
+    <div class="row" style="padding-top: 40px; padding-bottom: 40px">
+      <div class="col-md-10">
+        <span class="category">Бургери</span>
+      </div>
+      <div class="col-md-2">
+        <input type="button" (click)="ClickB()" class="btn btn-danger" style="width: 100%; margin-top: 20px" value="Більше...">
+      </div>
+      <div class="prod-container row" #contBurgers>
+      </div>
+    </div>
+    </a>
+
+    <a name="drink">
+    <div class="row" style="padding-top: 40px; padding-bottom: 40px">
+      <div class="col-md-10">
+        <span class="category">Напої</span>
+      </div>
+      <div class="col-md-2">
+        <input type="button" (click)="ClickD()" class="btn btn-danger" style="width: 100%; margin-top: 20px" value="Більше...">
+      </div>
+      <div class="prod-container row" #contDrinks>
+      </div>
+    </div>
+    </a>
+
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+        <h2>Контакти</h2>
+      </div>
+    </div>
+    <a name="contacts">
+      <app-contacts></app-contacts>
+    </a>
+  </div>
+  <app-footer></app-footer>
+</div>

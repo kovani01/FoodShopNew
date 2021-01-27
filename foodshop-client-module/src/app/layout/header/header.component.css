@@ -1,0 +1,113 @@
+
+.header {
+  position: fixed;
+  width: 100%;
+  max-height: 200px;
+  height: 168px;
+  left: 0;
+  top: -20px;
+  z-index: 10;
+
+  background-image: url("https://i.imgur.com/f8iaOmG.png");
+  background-size: cover;
+}
+
+input {
+  cursor: pointer !important;
+}
+
+.header-signIn {
+  position: absolute;
+  width: 156px;
+  height: 48px;
+  left: 1308px;
+  top: 36px;
+
+  background: linear-gradient(134.17deg, #ef6767 4.98%, #d73d3d 94.88%);
+  box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+  border-radius: 12px;
+
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26.5873px;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header-cart {
+  position: absolute;
+  width: 107px;
+  height: 31px;
+  left: 1127px;
+  top: 45px;
+}
+
+.prod-list{
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  left: 1030px;
+  top: 56px;
+
+  cursor: pointer !important;
+}
+
+.prod-list-block {
+  position: absolute;
+  width: 152px;
+  left: 900px;
+  top: 90px;
+
+  background: linear-gradient(134.17deg, #EF6767 4.98%, #D73D3D 94.88%);
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+a{
+  color: #2B3348;
+}
+
+.active{
+  color: #E04C4C;
+}
+
+.header-prod {
+  position: absolute;
+  width: 127px;
+  height: 31px;
+  left: 900px;
+  top: 45px;
+}
+
+.header-about {
+  position: absolute;
+  width: 106px;
+  height: 31px;
+  left: 720px;
+  top: 45px;
+}
+
+.header-text-style {
+  font-family: gilroylight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26.5873px;
+  line-height: 31px;
+}
+
+.header-home {
+  position: absolute;
+  width: 104px;
+  height: 31px;
+  left: 542px;
+  top: 45px;
+}
+
+.logo {
+  position: absolute;
+  width: 198px;
+  height: 28.56px;
+  left: 77px;
+  top: 47.7px;
+}

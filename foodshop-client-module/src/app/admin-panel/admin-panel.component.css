@@ -1,0 +1,65 @@
+.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+  }
+  .active
+  {
+      background-color: red;
+  }
+  .carousel-item
+
+  {
+      background-color: transparent;
+  }
+  .logo-f
+
+  {
+      background-color: transparent;
+  }
+
+  div
+{
+  margin-top: 30px;
+}
+  .container-img{
+    width: 514px;
+    height: 250px;
+    padding: 10px 20px 20px;
+
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+    border-radius: 25px;
+  }
+  .container-map {
+    width: 514px;
+    height: 250px;
+    padding: 20px;
+
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    box-shadow: -7.2px -7.2px 12px rgba(255, 255, 255, 0.8), 6px 6px 12px rgba(166, 180, 200, 0.7);
+    border-radius: 25px;
+  }
+  .diagram{
+    background: #ECF5E4;
+    width: 100px; height: 100px;
+    text-align: center;
+    font: 30px/100px Times, serif;
+    border: 24px solid #95CD8B;
+    border-right: 24px solid #D0E6BB;
+    border-radius: 100px;
+   }
+   .diagram-content{
+    font-size: 0.6em;
+   }
+  .head{
+	display: flex; 
+}
+
+.menu{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}

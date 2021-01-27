@@ -1,0 +1,53 @@
+<div style="background-color: #E5E5E5;">
+<app-header></app-header>
+  <div class="container" >
+    <div class="row" style="padding-top: 90px">
+      <app-content></app-content>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+       <h2>Сама еффектна їжа</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12  d-flex justify-content-between text-center pp">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi ad perferendis pariatur necessitatibus incidunt expedita. Voluptatum sapiente dicta incidunt vel, maxime aliquid? Quia, fugiat id! Consequuntur ad facilis incidunt.
+              Et totam dicta officia, in harum eius cupiditate deleniti maxime rerum perspiciatis, tenetur magni rem, nemo assumenda non cumque modi esse sint consequuntur sequi. Doloremque vitae tenetur nam iure voluptatum.
+              Quod, nesciunt voluptatem in itaque ducimus accusamus deleniti placeat ullam quam sequi excepturi suscipit officiis delectus. Adipisci magnam veritatis facere at qui nulla reprehenderit, deleniti debitis, explicabo suscipit, magni culpa.
+              Alias quos possimus aspernatur, minima, ex iure inventore doloremque eius asperiores laudantium veniam numquam sequi porro nihil dolore maxime, facere beatae! Rem tempore illo minus hic pariatur, deserunt est voluptatibus.
+              Ipsa qui officiis at ducimus, eaque eveniet eius. Ipsam ad natus quaerat accusamus repellat consectetur sunt? Amet, molestias et. Rem repellendus ipsam facilis ducimus minus veniam alias error nobis nisi.</p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+       <h2>Категорії</h2>
+      </div>
+    </div>
+
+<div class="row d-flex justify-content-center">
+  <div class=" col-md-6 col-sm-12 d-flex justify-content-center category-container" >
+    <a routerLink="prod#pizza" class="btn btn-danger btn-lg active mybtn" id="cart2" (mouseover)="mouseOver1()" (mouseout)="mouseOut1()" role="button" aria-pressed="true">Піца</a>
+    </div>
+  <div class=" col-md-6 col-sm-12 d-flex justify-content-center category-container" >
+      <a routerLink="prod#sushi" class="btn btn-danger btn-lg active mybtn" id="cart1" (mouseover)="mouseOver()" (mouseout)="mouseOut()" role="button" aria-pressed="true">Суші</a>
+    </div>
+  <div class=" col-md-6 col-sm-12 d-flex justify-content-center category-container" >
+        <a routerLink="prod#burgers" class="btn btn-danger btn-lg active mybtn" id="cart3" (mouseover)="mouseOver2()" (mouseout)="mouseOut2()" role="button" aria-pressed="true">Бургери</a>
+     </div>
+  <div class=" col-md-6 col-sm-12 d-flex justify-content-center category-container" >
+          <a routerLink="prod#drink" class="btn btn-danger btn-lg active mybtn" id="cart4" (mouseover)="mouseOver3()" (mouseout)="mouseOut3()" role="button" aria-pressed="true">Напої</a>
+     </div>
+
+</div>
+<div class="row">
+  <div class="col-sm-12 d-flex justify-content-center">
+   <h2>Контакти</h2>
+  </div>
+</div>
+<a name="contacts">
+  <app-contacts></app-contacts>
+</a>
+</div>
+</div>
+<app-footer></app-footer>

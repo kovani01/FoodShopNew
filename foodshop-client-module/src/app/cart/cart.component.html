@@ -1,0 +1,75 @@
+<div [@changeOpacity]="currentState" id="back" style="background-color: black; z-index: 20; position: fixed; height: 100%; width: 100%; display: none">
+</div>
+<div [@changePosition]="currentState" style="z-index: 21" class="newData">
+  <p class="infoP">Информація</p>
+  <input type="text" #tele class="input-group-text" style="margin-left: 10px; width: 95%; margin-right: 10px; margin-bottom: 20px" placeholder="Телефон">
+  <input type="text" #address class="input-group-text" style="margin-left: 10px; width: 95%; margin-right: 10px; margin-bottom: 20px" placeholder="Адреса">
+    <div class="row" style="padding-left: 15px; padding-right: 15px; padding-top: 50px">
+    <div class="col-md-6">
+      <button (click)="changeState()" style="width: 100%; height: 40px" class="btn btn-danger">Відмінити</button>
+    </div>
+    <div class="col-md-6">
+      <button (click)="SaveData(tele.value,address.value)" style="width: 100%; height: 40px" class="btn btn-success">Підтвердити</button>
+    </div>
+    </div>
+</div>
+<app-header></app-header>
+<div (mouseover)="AddItemsToCart()" style="background-color: #E5E5E5; min-height: 700px; padding-top: 200px; padding-left: 50px">
+  <div class="header">
+  <h1 class="hh">Корзина</h1>
+  <p><img src="https://i.imgur.com/FkiYEk3.png" alt="" class="line"></p>
+    <div class="args">
+      <span class="price">Вартість</span>
+      <span class="cols">Кількість</span>
+      <span class="sum">Сумма</span>
+    </div>
+  </div>
+  <div class="itm row col-sm-12">
+    <div #item>
+
+    </div>
+  </div>
+
+  <div class="row order-info">
+    <div class="col-md-7">
+    </div>
+    <div class="col-md-5">
+    <div class="suma row">
+      <div calss="col-md-8"  style="margin-left: 254px">
+        <span>Разом:</span>
+      </div>
+      <div class="col-md-4" style="margin-left: 90px">
+        <span>{{price}} грн</span>
+      </div>
+    </div>
+    <div class="pod row">
+      <div calss="col-md-8"  style="margin-left: 230px">
+        <span>Податок:</span>
+      </div>
+      <div class="col-md-4" style="margin-left: 90px">
+        <span>{{pdv}} грн</span>
+      </div>
+    </div>
+      <div class="row" style="margin-right: 30px">
+        <div class="col-md-7 plats" >
+          <span>До сплати:</span>
+        </div>
+        <div class="col-md-5 colls">
+          <span>{{allPrice}} грн</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container row orders">
+    <div class="col-md-5">
+      <button (click)="FormOrder()" class="online">Сплатити онлайн</button>
+    </div>
+    <div class="col-md-2">
+      <span class="or">або</span>
+    </div>
+    <div class="col-md-5">
+      <a (click)="FormOrder()" class="offline">Сплатити при отримані</a>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
